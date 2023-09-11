@@ -1,0 +1,12 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "puppies": "Puppies",
+        "contact": "Contact"
+    },
+
+    "dev": {
+        "view":"Development view"
+    }
+}

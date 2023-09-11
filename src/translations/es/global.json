@@ -1,0 +1,12 @@
+{
+    "navbar":{
+        "home": "Inicio",
+        "about": "Nosotros",
+        "puppies": "Cachorros",
+        "contact": "Contacto"
+    },
+
+    "dev": {
+        "view":"Vista de desarrollo"
+    }
+}
