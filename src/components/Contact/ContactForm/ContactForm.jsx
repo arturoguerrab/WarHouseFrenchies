@@ -3,7 +3,7 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <div>
-        <form action="" className='flex flex-col w-96'>
+        <form action="" className='flex flex-col w-64'>
             <label htmlFor="name">Nombre</label>
             <input type="text" id='name'/>
             <label htmlFor="lastname">Apellido</label>
