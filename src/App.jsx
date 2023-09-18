@@ -2,6 +2,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout/LayoutContainer'
 import DevSample from './components/DevSamples/DevSample'
 import { useTranslation } from 'react-i18next'
+import HomeContainer from './components/Home/HomeContainer'
+import PuppiesContainer from './components/Puppies/PuppiesContainer'
+import ContactContainer from './components/Contact/ContactContainer'
 
 function App() {
   
@@ -11,10 +14,10 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={<DevSample name={t('navbar.home')}/>}/>
+          <Route path="/" element={<HomeContainer/>}/>
           <Route path="/about" element={<DevSample name={t('navbar.about')}/>}/>
-          <Route path="/puppies" element={<DevSample name={t('navbar.puppies')}/>}/>
-          <Route path="/contact" element={<DevSample name={t('navbar.contact')}/>}/>
+          <Route path="/puppies" element={<PuppiesContainer/>}/>
+          <Route path="/contact" element={<ContactContainer/>}/>
           <Route path="*" element={<DevSample name={'ERROR 404 - NOT FOUND'}/>}/>
         </Routes>
       </Layout>

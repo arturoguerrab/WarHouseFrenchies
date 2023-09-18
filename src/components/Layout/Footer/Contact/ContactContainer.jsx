@@ -4,7 +4,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { DevBoxDesing } from '../../../../utils/ClassRepeated';
 
-const ContactContainer = () => {
+const ContactIcons = () => {
   return (
     <div className={'flex flex-col col-span-12 lg:col-span-6  items-center p-1 gap-2'}>
       <div className='flex'>
@@ -16,4 +16,4 @@ const ContactContainer = () => {
   )
 }
 
-export default ContactContainer
+export default ContactIcons 

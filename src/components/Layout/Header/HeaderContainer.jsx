@@ -2,7 +2,7 @@ import React from 'react'
 
 import TogglersContainer from './Togglers/TogglersContainer';
 import NavbarContainer from './Navbar/NavbarContainer';
-import { DevBoxDesing, containerClass } from '../../../utils/ClassRepeated';
+import { containerClass } from '../../../utils/ClassRepeated';
 import SideBar from './Sidebar/SideBar';
 import { NavLink } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ const HeaderContainer = () =>{
 
 
     return (
-        <header className="w-screen py-2 fixed bg-white">
+        <header className="w-screen py-2 fixed bg-white z-20">
 
             <navbar className={containerClass + "flex justify-between lg:grid lg:grid-cols-12 items-center"}>
                 <SideBar/>
