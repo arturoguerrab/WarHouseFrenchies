@@ -1,15 +1,35 @@
 .hero{
-    background-size: cover;
+    
     background: fixed;
-background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='2000' height='1080' preserveAspectRatio='none' viewBox='0 0 2000 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1139%26quot%3b)' fill='none'%3e%3crect width='2000' height='1080' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M1339.048%2c679.43C1410.644%2c680.063%2c1485.152%2c663.602%2c1524.682%2c603.905C1568.174%2c538.225%2c1576.864%2c450.321%2c1534.908%2c383.65C1495.018%2c320.262%2c1413.939%2c308.106%2c1339.048%2c308.916C1265.996%2c309.706%2c1188.757%2c325.637%2c1150.393%2c387.809C1110.425%2c452.58%2c1117.678%2c536.765%2c1159.019%2c600.669C1197.152%2c659.614%2c1268.847%2c678.809%2c1339.048%2c679.43' fill='rgba(38%2c 41%2c 94%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M193.88%2c834.599C266.636%2c828.826%2c308.762%2c758.368%2c341.048%2c692.913C368.777%2c636.697%2c377.825%2c573.962%2c350.192%2c517.699C318.725%2c453.63%2c265.207%2c396.005%2c193.88%2c393.268C118.707%2c390.383%2c53.729%2c440.17%2c15.311%2c504.849C-24.043%2c571.104%2c-36.88%2c652.226%2c-0.184%2c719.989C38.159%2c790.794%2c113.611%2c840.968%2c193.88%2c834.599' fill='rgba(38%2c 41%2c 94%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1775.161%2c1139.824C1836.447%2c1139.882%2c1899.316%2c1124.323%2c1933.284%2c1073.312C1970.96%2c1016.732%2c1980.346%2c942.045%2c1945.87%2c883.461C1911.798%2c825.563%2c1842.191%2c800.152%2c1775.161%2c804.617C1715.322%2c808.603%2c1670.139%2c852.137%2c1639.771%2c903.852C1608.906%2c956.414%2c1587.222%2c1020.143%2c1617.556%2c1073.013C1647.991%2c1126.059%2c1714.004%2c1139.766%2c1775.161%2c1139.824' fill='rgba(38%2c 41%2c 94%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M348.629%2c334.058C418.992%2c337.09%2c489.968%2c305.162%2c523.622%2c243.295C556.097%2c183.594%2c539.643%2c110.166%2c500.727%2c54.449C467.149%2c6.375%2c407.251%2c-5.848%2c348.629%2c-7.246C286.537%2c-8.727%2c216.795%2c-5.502%2c183.421%2c46.88C148.299%2c102.006%2c165.351%2c172.602%2c197.945%2c229.26C230.644%2c286.1%2c283.116%2c331.235%2c348.629%2c334.058' fill='rgba(38%2c 41%2c 94%2c 1)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1139'%3e%3crect width='2000' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");    background-repeat: no-repeat;
-
+    background-image: url("https://res.cloudinary.com/dbwomkmnq/image/upload/v1695914263/WarHouse%20Frenchies/razas-perros-bulldog-frances-lunares-blancos-negros-sobre-marmol_1_eqvslk.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
-.seccionOne{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1035%26quot%3b)' fill='none'%3e%3cpath d='M1560 560L0 560 L0 355.04Q31.86 266.9%2c 120 298.76Q172.09 278.85%2c 192 330.94Q241.5 260.44%2c 312 309.94Q359.75 237.69%2c 432 285.44Q510.57 244.01%2c 552 322.59Q620.09 270.68%2c 672 338.77Q687.18 281.95%2c 744 297.14Q796.6 229.74%2c 864 282.34Q938.88 237.22%2c 984 312.1Q1010.61 266.71%2c 1056 293.32Q1133.39 250.71%2c 1176 328.1Q1236.01 316.12%2c 1248 376.13Q1254.41 310.54%2c 1320 316.96Q1390.18 267.14%2c 1440 337.33Q1515.7 293.03%2c 1560 368.73z' fill='rgba(38%2c 41%2c 94%2c 1)'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 358.97Q63.43 350.4%2c 72 413.84Q113.06 334.9%2c 192 375.96Q282.01 345.97%2c 312 435.97Q336.74 388.71%2c 384 413.45Q404.14 361.59%2c 456 381.73Q477.69 331.42%2c 528 353.1Q612.64 317.74%2c 648 402.38Q696.55 378.93%2c 720 427.47Q757.22 344.69%2c 840 381.9Q908.66 330.56%2c 960 399.23Q1028.3 347.53%2c 1080 415.83Q1129.13 392.97%2c 1152 442.1Q1175.43 345.54%2c 1272 368.97Q1301.76 326.73%2c 1344 356.49Q1415.42 307.91%2c 1464 379.34z' fill='rgba(94%2c 100%2c 114%2c 1)'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 445.53Q64.93 438.45%2c 72 503.38Q108.65 420.03%2c 192 456.69Q243.33 436.02%2c 264 487.35Q332.34 435.69%2c 384 504.03Q409.45 409.48%2c 504 434.93Q584.53 395.46%2c 624 475.99Q691.15 423.14%2c 744 490.3Q753.38 427.69%2c 816 437.07Q857.03 406.1%2c 888 447.13Q951.85 438.98%2c 960 502.83Q1006.26 429.09%2c 1080 475.35Q1126.85 402.2%2c 1200 449.05Q1248.16 377.21%2c 1320 425.37Q1373.66 407.03%2c 1392 460.7Q1450.45 447.15%2c 1464 505.61z' fill='rgba(208%2c 225%2c 240%2c 1)'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 549.87Q26.76 504.63%2c 72 531.4Q96.19 483.59%2c 144 507.77Q233.37 477.13%2c 264 566.5Q310.63 541.13%2c 336 587.77Q345.17 524.94%2c 408 534.11Q433.8 487.91%2c 480 513.71Q536.97 498.68%2c 552 555.65Q560.78 492.43%2c 624 501.21Q668 473.21%2c 696 517.21Q763.35 464.56%2c 816 531.91Q857.28 501.19%2c 888 542.47Q903.26 485.73%2c 960 500.99Q1032.02 453.01%2c 1080 525.03Q1170.33 495.36%2c 1200 585.68Q1216.19 481.87%2c 1320 498.05Q1364.14 470.2%2c 1392 514.34Q1433.89 484.23%2c 1464 526.12z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1035'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    background-position: bottom;
-    margin-bottom: -3px;
-    
+/* @media (max-height: 420px) {
+    .hero {
+      min-height: 235vh;
+  }
+} */
+/* @media (max-height: 770px) {
+    .hero {
+      min-height: 140vh;
+  }
+}  */
+
+
+
+@media (min-width: 1440px) {
+  #waveslg{
+    display: none;
+  }
+  #wavesxl{
+    display: block;
+  }
+  #herocontainer{
+    height: 120vh;
+  }
 }
 
 .slider{

@@ -1,16 +1,20 @@
 import React from 'react'
 import '../home.css'
-import { containerClass } from '../../../utils/ClassRepeated'
+import { DevBoxDesing, containerClass } from '../../../utils/ClassRepeated'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className={containerClass + 'h-screen flex flex-col gap-5 sm:flex-row items-center justify-center fixed top-0 left-0 right-0 pt-24'}>
-        <div className='flex flex-col flex-grow-0'>
-            <h1 className='text-center text-black'>WarHouse<br className='md:hidden'/>Frenchies</h1>
-            <button className='bg-[#5E6472] text-white w-3/6 self-center'>Ver mas</button>
-            <h2 className='text-center text-black'>Lorem ipsum dolor sit amet</h2>
+    <div className={containerClass + 'h-screen mt-12 grid grid-cols-12 grid-rows-5 fixed left-0 right-0 '}>
+        <div className={'col-span-12 lg:col-span-4 lg:col-start-2 row-span-3 row-start-1 landscape:row-start-2 lg:row-start-2 lg:mt-[-70px] text-center flex flex-col justify-center items-center'}>
+            <h1 className='text-secondary font-bold text-6xl'>WarHouse</h1>
+            <h2 className='pl-20 font-bold text-6xl'>Frenchies</h2>
+            <p className='font-semibold w-3/4 py-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi!</p>
+            <Link to={'/puppies'}>
+              <button className='bg-primary hover:bg-secondary rounded-lg text-white font-medium w-[180px] h-[40px] self-center'>Ver mas</button>
+            </Link> 
         </div>
-        <img className='h-[400px] w-[400px]' src="https://a.storyblok.com/f/152976/935x1121/da1e71e22d/french-bulldog-insurance.png" alt="" />
+
     </div>
   )
 }

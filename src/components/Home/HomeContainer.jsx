@@ -3,17 +3,21 @@ import Hero from './Hero/Hero'
 import './home.css'
 import AboutHome from './AboutUs/AboutHome'
 import SliderHome from './SliderHome/SliderHome'
+import { DevBoxDesing } from '../../utils/ClassRepeated'
 
 
 
 const HomeContainer = () => {
   return (
-    <div className='hero'>
+    <div>
         <Hero/>
-        <div className='w-screen h-screen bg-transparent'></div>
-        <div className='seccionOne h-80 bg-transparent relative z-10'>container</div>
-        <AboutHome/>
-        <SliderHome/>
+        <div id='herocontainer' className={'w-full h-[110vh] lg:h-[100vh] hero'}></div>
+        <img src='https://res.cloudinary.com/dbwomkmnq/image/upload/v1695925820/WarHouse%20Frenchies/layered-waves-haikei_9_ukqm4c.svg' id='wavesxl' className={'hidden mt-[-600px] relative z-10'} />
+        <img src='https://res.cloudinary.com/dbwomkmnq/image/upload/v1695925820/WarHouse%20Frenchies/layered-waves-haikei_9_ukqm4c.svg' id='waveslg' className={'hidden lg:block mt-[-280px] relative z-10'}/>
+        <img src='https://res.cloudinary.com/dbwomkmnq/image/upload/v1695924991/WarHouse%20Frenchies/layered-waves-haikei_6_sdbpja.svg' className={'hidden md:block lg:hidden mt-[-820px] relative z-10'}/>
+        <img src='https://res.cloudinary.com/dbwomkmnq/image/upload/v1695925284/WarHouse%20Frenchies/layered-waves-haikei_8_tdlnsp.svg' className={'md:hidden relative mt-[-530px]  z-10'}/>
+        {/* <AboutHome/>
+        <SliderHome/>  */}
     </div>
   )
 }

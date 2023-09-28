@@ -40,41 +40,34 @@ const SideBar = () => {
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}
         >
-            <List>
-                <ListItem disablePadding>
-                    <ListItemButton>
-                        <NavLink to={'/'}>
-                            <p className='text-black'>{t('navbar.home')}</p>
-                        </NavLink>
-                    </ListItemButton>
-                </ListItem>
+            <List className='font-semibold'>
 
                 <ListItem disablePadding>
                     <ListItemButton>
-                        <NavLink to={'/about'}>
-                            <p className='text-black'>{t('navbar.about')}</p>
+                        <NavLink to={'/about'} className={({isActive})=> isActive ? 'text-secondary w-full' : 'text-black hover:text-complement w-full'}>
+                            <p>{t('navbar.about')}</p>
                         </NavLink>
                     </ListItemButton>
                 </ListItem>
                 
                 <ListItem disablePadding>
                     <ListItemButton>
-                        <NavLink to={'/puppies'}>
-                            <p className='text-black'>{t('navbar.puppies')}</p>
+                        <NavLink to={'/puppies'} className={({isActive})=> isActive ? 'text-secondary w-full' : 'text-black hover:text-complement w-full'}>
+                            <p>{t('navbar.puppies')}</p>
                         </NavLink>
                     </ListItemButton>
                 </ListItem>
 
                 <ListItem disablePadding>
                     <ListItemButton>
-                        <NavLink to={'/contact'}>
-                            <p className='text-black'>{t('navbar.contact')}</p>
+                        <NavLink to={'/contact'} className={({isActive})=> isActive ? 'text-secondary w-full' : 'text-black hover:text-complement w-full'}>
+                            <p>{t('navbar.contact')}</p>
                         </NavLink>
                     </ListItemButton>
                 </ListItem>
             </List>
             <Divider/>
-            <ContactContainer/>
+            {/* <ContactContainer/> */}
         </Box>
     );
     

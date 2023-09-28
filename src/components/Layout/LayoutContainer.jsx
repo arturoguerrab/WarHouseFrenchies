@@ -7,6 +7,7 @@ import { NavLink } from 'react-router-dom'
 const Layout = ({children}) => {
   return (
     <div>
+        <a name='ancla'></a>
         <HeaderContainer/>
             {children}
           <NavLink to={'https://wa.me/14078641606'} target='_blank'>
