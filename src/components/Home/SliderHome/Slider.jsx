@@ -2,7 +2,6 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import Card from './Card';
-import { DevBoxDesing } from '../../../utils/ClassRepeated';
 import 'swiper/css';
 import 'swiper/css/pagination';
 

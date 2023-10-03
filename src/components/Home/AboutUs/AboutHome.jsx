@@ -1,5 +1,5 @@
 import React from 'react'
-import { DevBoxDesing, containerClass } from '../../../utils/ClassRepeated'
+import {containerClass } from '../../../utils/ClassRepeated'
 import Values from './Values'
 import Btn from '../../Samples/Btn'
 

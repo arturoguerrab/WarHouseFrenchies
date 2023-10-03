@@ -9,7 +9,6 @@ import 'swiper/css/pagination';
 
 // import required modules
 import { EffectCube, Pagination } from 'swiper/modules';
-import { DevBoxDesing } from '../../../utils/ClassRepeated';
 
 const SliderImages = () => {
   return (

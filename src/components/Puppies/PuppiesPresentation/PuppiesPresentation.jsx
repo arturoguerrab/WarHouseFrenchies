@@ -1,5 +1,5 @@
 import React from 'react'
-import { DevBoxDesing, containerClass } from '../../../utils/ClassRepeated'
+import {containerClass } from '../../../utils/ClassRepeated'
 import SliderImages from './SliderImages'
 import MaleIcon from '@mui/icons-material/Male';
 import FemaleIcon from '@mui/icons-material/Female';

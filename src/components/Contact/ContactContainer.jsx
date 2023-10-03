@@ -1,6 +1,6 @@
 import React from 'react'
 import ContactForm from './ContactForm/ContactForm'
-import { DevBoxDesing, containerClass } from '../../utils/ClassRepeated'
+import {containerClass } from '../../utils/ClassRepeated'
 
 const ContactContainer = () => {
   return (

@@ -2,7 +2,6 @@ import React from 'react'
 import Hero from './Hero/Hero'
 import './home.css'
 import AboutHome from './AboutUs/AboutHome'
-import { DevBoxDesing } from '../../utils/ClassRepeated'
 import SliderHomeContainer from './SliderHome/SliderHomeContainer'
 
 

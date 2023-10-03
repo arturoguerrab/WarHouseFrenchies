@@ -1,6 +1,5 @@
 import React from 'react'
 import PuppiesPresentation from './PuppiesPresentation/PuppiesPresentation'
-import { DevBoxDesing } from '../../utils/ClassRepeated'
 import PuppiesHero from './PuppiesHero/PuppiesHero'
 
 const PuppiesContainer = () => {
