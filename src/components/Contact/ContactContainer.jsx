@@ -1,5 +1,4 @@
 import React from 'react'
-import ContactIcons from '../Layout/Footer/Contact/ContactContainer'
 import ContactForm from './ContactForm/ContactForm'
 import { DevBoxDesing, containerClass } from '../../utils/ClassRepeated'
 

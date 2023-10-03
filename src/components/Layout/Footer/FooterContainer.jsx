@@ -1,7 +1,7 @@
 import React from 'react'
 import { DevBoxDesing, containerClass } from '../../../utils/ClassRepeated'
 import { NavLink } from 'react-router-dom'
-import ContactIcons from './Contact/ContactContainer'
+import ContactIcons from './Contact/ContactIcons'
 import NavList from '../Header/Navbar/NavList'
 
 
