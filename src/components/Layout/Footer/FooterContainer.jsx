@@ -1,19 +1,21 @@
 import React from 'react'
-import { containerClass } from '../../../utils/ClassRepeated'
+import { DevBoxDesing, containerClass } from '../../../utils/ClassRepeated'
 import { NavLink } from 'react-router-dom'
 import ContactIcons from './Contact/ContactContainer'
+import NavList from '../Header/Navbar/NavList'
 
 
 const FooterContainer = () => {
   return (
-    <footer className="pt-4 bg-white relative z-20">
-      <div className={containerClass + "grid grid-cols-12 items-center gap-2 pb-4"}>
-        <div className={'col-span-12 lg:col-span-6 flex justify-center'}>
-        <NavLink to={'/'} className={'text-black text-center '}>WarHouseFrenchies</NavLink>
-        </div>
+    <footer className="relative z-20 flex h-[30vh] items-center bg-background ">
+      {/* <img className='w-full' src="https://res.cloudinary.com/dbwomkmnq/image/upload/v1696372776/WarHouse%20Frenchies/layered-waves-haikei_10_jraa9x.svg" alt="" /> mt-[-7rem] md:mt-[-15rem] 2xl:mt-[-20rem] p-20 */}
+      <div className={containerClass+ "flex flex-col h-4/6 justify-evenly items-center"}>
         <ContactIcons/>
+        <NavLink to={'/'} className={'text-secondary text-center text-lg font-semibold '}>WarHouse Frenchies © 2023</NavLink>
+        <div className={'w-80 flex justify-center text-lg'}>
+          <NavList/>
+        </div>
       </div>
-      <iframe className={'h-72'} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224444.754411368!2d-81.5074758383849!3d28.481073844047653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e773d8fecdbc77%3A0xac3b2063ca5bf9e!2sOrlando%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1693345912765!5m2!1ses-419!2sar"></iframe>
     </footer>
   )
 }

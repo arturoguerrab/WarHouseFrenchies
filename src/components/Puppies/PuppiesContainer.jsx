@@ -1,17 +1,19 @@
 import React from 'react'
 import PuppiesPresentation from './PuppiesPresentation/PuppiesPresentation'
 import { DevBoxDesing } from '../../utils/ClassRepeated'
+import PuppiesHero from './PuppiesHero/PuppiesHero'
 
 const PuppiesContainer = () => {
   return (
     <div>
-        <div className=' w-screen h-screen bg-black text-white flex justify-center items-center'>PUPPIES HERO SECCION </div>
-        <section className={DevBoxDesing + 'w-screen bg-[#ffffff]'}>
-            <PuppiesPresentation side={1}/>
-            <PuppiesPresentation/>
-            <PuppiesPresentation side={1}/>
-            <PuppiesPresentation/>
-        </section>
+      <PuppiesHero/>
+      <div className=' w-full h-screen bg-[url(https://res.cloudinary.com/dbwomkmnq/image/upload/v1696354276/WarHouse%20Frenchies/fernando-jorge-2dtCoIe0DKM-unsplash_bp3uci.jpg)] bg-cover bg-center bg-fixed'></div>
+      <section className={'w-full bg-[#ffffff] relative z-10'}>
+          <PuppiesPresentation side={1} sex={'male'}/>
+          <PuppiesPresentation/>
+          <PuppiesPresentation side={1}/>
+          <PuppiesPresentation sex={'male'}/>
+      </section>
 
     </div>
   )

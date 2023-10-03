@@ -1,0 +1,10 @@
+@media (min-width: 430px) and (max-width: 489px)  {
+    .slider {
+        padding: 4rem/* 40px */;
+    }
+}
+@media (min-width: 490px) and (max-width: 639px)  {
+    .slidera {
+        padding: 6.5rem/* 40px */;
+    }
+}

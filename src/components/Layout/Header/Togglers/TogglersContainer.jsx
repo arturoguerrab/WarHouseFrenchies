@@ -5,7 +5,7 @@ import ToggleLenguage from './ToggleLenguage';
 const TogglersContainer = () => {
 
   return (
-    <div className={'col-span-2 col-start-11 lg:col-start-12 flex justify-end items-center'}>
+    <div className={'col-span-2 col-start-11 lg:col-start-12 place-self-end'}>
       <ToggleLenguage/>
     </div>
   )

@@ -1,18 +1,16 @@
 import React from 'react'
 import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
+import YoutubeIcon from '@mui/icons-material/Youtube';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import { DevBoxDesing } from '../../../../utils/ClassRepeated';
+import { Link } from 'react-router-dom';
 
 const ContactIcons = () => {
   return (
-    <div className={'flex flex-col col-span-12 lg:col-span-6  items-center p-1 gap-2'}>
-      <div className='flex'>
-        <InstagramIcon sx={{fontSize:40}}/>
-        <WhatsAppIcon sx={{fontSize:40}}/>
-        <FacebookIcon sx={{fontSize:40}}/>
+      <div className='flex gap-3'>
+        <Link to={'https://www.instagram.com/warhousefrenchies2021/'} target='_blank'><InstagramIcon sx={{fontSize:30}}/></Link>
+        <Link to={'https://wa.me/14078641606'} target='_blank'><WhatsAppIcon sx={{fontSize:30}}/></Link>
+        <Link to={'https://www.youtube.com/@warhousefrenchies1680'} target='_blank'><YoutubeIcon sx={{fontSize:30}}/></Link>
       </div>
-    </div>
   )
 }
 

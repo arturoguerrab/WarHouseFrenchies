@@ -11,6 +11,7 @@ import { NavLink } from 'react-router-dom';
 import ContactContainer from '../../Footer/Contact/ContactContainer';
 import { Divider } from '@mui/material';
 import { useTranslation } from 'react-i18next';
+import NavItem from '../Navbar/NavItem';
 
 
 
@@ -44,25 +45,19 @@ const SideBar = () => {
 
                 <ListItem disablePadding>
                     <ListItemButton>
-                        <NavLink to={'/about'} className={({isActive})=> isActive ? 'text-secondary w-full' : 'text-black hover:text-complement w-full'}>
-                            <p>{t('navbar.about')}</p>
-                        </NavLink>
+                        <NavItem nombre={t('navbar.about')} to='/about' className={'w-full'}/>
                     </ListItemButton>
                 </ListItem>
                 
                 <ListItem disablePadding>
                     <ListItemButton>
-                        <NavLink to={'/puppies'} className={({isActive})=> isActive ? 'text-secondary w-full' : 'text-black hover:text-complement w-full'}>
-                            <p>{t('navbar.puppies')}</p>
-                        </NavLink>
+                        <NavItem nombre={t('navbar.puppies')} to='/puppies' className={'w-full'}/>
                     </ListItemButton>
                 </ListItem>
 
                 <ListItem disablePadding>
                     <ListItemButton>
-                        <NavLink to={'/contact'} className={({isActive})=> isActive ? 'text-secondary w-full' : 'text-black hover:text-complement w-full'}>
-                            <p>{t('navbar.contact')}</p>
-                        </NavLink>
+                        <NavItem nombre={t('navbar.contact')} to='/contact' className={'w-full'}/>
                     </ListItemButton>
                 </ListItem>
             </List>

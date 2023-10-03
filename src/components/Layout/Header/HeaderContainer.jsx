@@ -11,9 +11,9 @@ const HeaderContainer = () =>{
 
 
     return (
-        <header className={"w-full py-1 fixed bg-white z-20"}>
+        <header className={"fixed z-20 w-full py-1 bg-white"}>
 
-            <div className={containerClass + "flex justify-between lg:grid lg:grid-cols-12 items-center"}>
+            <div className={containerClass + "flex lg:grid lg:grid-cols-12 justify-between items-center"}>
                 <SideBar/>
                 <NavLink to={'/'} className={'text-black text-center font-semibold'}>WarHouseFrenchies</NavLink>
                 <NavbarContainer/>

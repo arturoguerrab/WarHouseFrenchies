@@ -1,31 +1,50 @@
 import React from 'react'
 import { DevBoxDesing, containerClass } from '../../../utils/ClassRepeated'
+import SliderImages from './SliderImages'
+import MaleIcon from '@mui/icons-material/Male';
+import FemaleIcon from '@mui/icons-material/Female';
 
-const PuppiesPresentation = ({side}) => {
+const PuppiesPresentation = ({side,sex}) => {
     if (side === 1) {
         return (
-            // <div className={DevBoxDesing + 'w-screen bg-[#ffffff]'}>
-                <article className={containerClass + DevBoxDesing + 'lg:flex lg:justify-center lg:items-center p-[30px]'}>
-                    <img className='w-[350px] h-[350px]' src="https://images.squarespace-cdn.com/content/v1/593e0bb0e58c62c93bd2aa8f/1639937217965-7I8FI9DFF02Q0FFK6N4I/b2d34a28-7a55-42b7-a51c-e58bec1facfa.jpg?format=1500w" alt="" />
-                    <div className='w-[350px]'>
-                        <h2 className='text-2xl'>Charlie</h2>
+                <article className={containerClass + 'flex flex-col lg:flex-row justify-evenly items-center py-10'}>
+                    <SliderImages/>
+                    <div className='w-11/12 lg:w-5/12'>
+                        <div className='flex justify-start'>
+                            {sex == 'male' 
+                                ?<h3 className='text-6xl font-semibold text-complement'>Charlie</h3>
+                                :<h3 className='text-6xl font-semibold text-secondary'>Albina</h3>
+                            }
+                            {sex == 'male' 
+                                ?<MaleIcon className='text-primary' sx={{fontSize:60}}/> 
+                                :<FemaleIcon sx={{fontSize:60}} className='text-acent'/>
+                            }
+                        </div>
+                        <p className='text-3xl font-semibold'>3 months</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus hic sunt reiciendis aliquid neque, enim temporibus nemo aspernatur est officiis pariatur, eaque amet adipisci sed id nostrum omnis laudantium placeat!</p>
                     </div>
-
                 </article>
-            // </div>
         )
     }
     
     return(
-        <article className={containerClass + DevBoxDesing + 'flex flex-col-reverse lg:flex-row lg:justify-center lg:items-center pt-[60px]'}>
-        <div className='w-[350px]'>
-            <h2 className='text-2xl'>Lulu</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus hic sunt reiciendis aliquid neque, enim temporibus nemo aspernatur est officiis pariatur, eaque amet adipisci sed id nostrum omnis laudantium placeat!</p>
-        </div>
-        <img className='w-[350px] h-[350px]' src="https://frenchiegiants.com/wp-content/uploads/2023/04/1680336002165-1024x994.jpg" alt="" />
-
-    </article>
+        <article className={containerClass + 'flex flex-col lg:flex-row-reverse justify-evenly items-center py-10'}>
+            <SliderImages/>
+            <div className='w-11/12 lg:w-5/12'>
+                <div className='flex justify-start'>
+                    {sex == 'male' 
+                        ?<h3 className='text-6xl font-semibold text-complement'>Charlie</h3>
+                        :<h3 className='text-6xl font-semibold text-secondary'>Albina</h3>
+                    }
+                    {sex == 'male' 
+                        ?<MaleIcon className='text-primary' sx={{fontSize:60}}/> 
+                        :<FemaleIcon sx={{fontSize:60}} className='text-acent'/>
+                    }
+                </div>
+                <p className='text-3xl font-semibold'>3 months</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus hic sunt reiciendis aliquid neque, enim temporibus nemo aspernatur est officiis pariatur, eaque amet adipisci sed id nostrum omnis laudantium placeat!</p>
+            </div>
+        </article>
     )
 }
 
